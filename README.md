@@ -6,18 +6,16 @@ Installation is done with simple command set:
 * Install Sublime packages with Package Control: "Seti UI"
 * Install XCode & its Command Line Tools.
 * `mkdir ~/Development/`
-* Clone this project in ~/Development `git clone https://github.com/alexdvance/dotfiles.git`
+* Bootstrap this project
+```
+curl --silent https://raw.githubusercontent.com/alexdvance/dotfiles/master/install.sh | sh
+```
 * Run `sh bootstrap-new-system.sh`
 * Install "Source Code Pro" font from fonts folder.
 * Change Terminal.app theme to `terminal/alexdvance.terminal`.
 * Change default shell to ZSH: `chsh -s /bin/zsh`.
 * Insert proper hosts from `etc/hosts` to system’s `/etc/hosts`.
 * Copy Sublime Text icon in sublime folder into Get Info modal of Sublime Text application ([credit](https://dribbble.com/shots/1840393-Sublime-Text-Yosemite-Icon?list=searches&tag=sublime_text))
-
-Incomplete quick version:
-```
-curl --silent https://raw.githubusercontent.com/alexdvance/dotfiles/master/install.sh | sh
-```
 
 ## Features
 
