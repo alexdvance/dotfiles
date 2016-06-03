@@ -1,9 +1,9 @@
 [user]
 	name = Alex Vance
-	email = alex.vance@mequilibrium.com
+	email = alexdvance@gmail.com
 
 [github]
-  user = alexmeq
+  user = alexdvance
 
 [alias]
   br = branch
@@ -24,17 +24,17 @@
   discard = checkout -- .
   rmtag = "!sh -c 'git tag -d $1; git push origin :refs/tags/$1'"
 
-  changelog = !sh "$HOME/Developer/alexdvance/dotfiles/git-extras/git-changelog.sh"
-  rstatus   = !zsh "$HOME/Developer/alexdvance/dotfiles/git-extras/git-rstatus.sh"
-  release   = !sh "$HOME/Developer/alexdvance/dotfiles/git-extras/git-release.sh"
-  setup     = !zsh "$HOME/Developer/alexdvance/dotfiles/git-extras/git-setup.sh"
-  summary   = !zsh "$HOME/Developer/alexdvance/dotfiles/git-extras/git-summary.sh"
-  delete-branch = !sh "$HOME/Developer/alexdvance/dotfiles/git-extras/git-delete-branch.sh"
+  changelog = !sh "$HOME/Development/alexdvance/dotfiles/git-extras/git-changelog.sh"
+  rstatus   = !zsh "$HOME/Development/alexdvance/dotfiles/git-extras/git-rstatus.sh"
+  release   = !sh "$HOME/Development/alexdvance/dotfiles/git-extras/git-release.sh"
+  setup     = !zsh "$HOME/Development/alexdvance/dotfiles/git-extras/git-setup.sh"
+  summary   = !zsh "$HOME/Development/alexdvance/dotfiles/git-extras/git-summary.sh"
+  delete-branch = !sh "$HOME/Development/alexdvance/dotfiles/git-extras/git-delete-branch.sh"
 
   pr = "!f() { git fetch -fu ${2:-origin} refs/pull/$1/head:pr/$1; } ; f"
 
-  ghfork = !sh "$HOME/Developer/alexdvance/dotfiles/git-extras/git-ghpull.sh"
-  cleanup = !ruby "$HOME/Developer/alexdvance/dotfiles/git-extras/git-cleanup.rb"
+  ghfork = !sh "$HOME/Development/alexdvance/dotfiles/git-extras/git-ghpull.sh"
+  cleanup = !ruby "$HOME/Development/alexdvance/dotfiles/git-extras/git-cleanup.rb"
 
 [color]
   ui = true
