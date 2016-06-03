@@ -44,8 +44,7 @@
 	"save_on_focus_lost": false,
 	"side_bar_width": 220,
 	"tab_size": 2,
-  "theme": "Seti.sublime-theme",
-	// "theme": "Hero Dark.sublime-theme",
+	"theme": "Seti.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"word_wrap": true
