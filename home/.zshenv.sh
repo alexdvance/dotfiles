@@ -49,6 +49,9 @@ fi
 typeset -gU cdpath fpath mailpath manpath path
 typeset -gUT INFOPATH infopath
 
+# Aliases
+runserver='python -m SimpleHTTPServer'
+
 # Commonly used directories.
 dev="$HOME/Development"
 as="$HOME/Library/Application Support"
