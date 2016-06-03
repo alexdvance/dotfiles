@@ -75,3 +75,5 @@
 	token = !security find-internet-password -a alexdvance -s github.com -l 'ghi token' -w
 [pull]
 	rebase = false
+[push]
+	default = matching
