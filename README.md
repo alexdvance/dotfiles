@@ -3,15 +3,18 @@ Colourful & robust OS X configuration files and utilities.
 
 Installation is done with simple command set:
 
+```
+curl --silent https://raw.githubusercontent.com/alexdvance/dotfiles/master/install.sh | sh
+```
+
+## Additional Steps
 * Install Sublime packages with Package Control: "Seti UI"
 * Install XCode & its Command Line Tools.
 * `mkdir ~/Development/`
 * Bootstrap this project
-```
-curl --silent https://raw.githubusercontent.com/alexdvance/dotfiles/master/install.sh | sh
-```
 * Run `sh bootstrap-new-system.sh`
 * Install "Source Code Pro" font from fonts folder.
+* Install trash command `brew install trash`
 * Change Terminal.app theme to `terminal/paulmillr.terminal`.
 * Change default shell to ZSH: `chsh -s /bin/zsh`.
 * If git modules failed to download:
