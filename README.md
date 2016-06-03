@@ -12,8 +12,10 @@ curl --silent https://raw.githubusercontent.com/alexdvance/dotfiles/master/insta
 ```
 * Run `sh bootstrap-new-system.sh`
 * Install "Source Code Pro" font from fonts folder.
-* Change Terminal.app theme to `terminal/alexdvance.terminal`.
+* Change Terminal.app theme to `terminal/paulmillr.terminal`.
 * Change default shell to ZSH: `chsh -s /bin/zsh`.
+* If git modules failed to download:
+`git clone https://github.com/zsh-users/zsh-syntax-highlighting.git terminal/highlight`
 * Insert proper hosts from `etc/hosts` to system’s `/etc/hosts`.
 * Copy Sublime Text icon in sublime folder into Get Info modal of Sublime Text application ([credit](https://dribbble.com/shots/1840393-Sublime-Text-Yosemite-Icon?list=searches&tag=sublime_text))
 
