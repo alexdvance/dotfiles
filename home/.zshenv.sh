@@ -54,6 +54,7 @@ runserver='python -m SimpleHTTPServer'
 
 # Commonly used directories.
 dev="$HOME/Development"
+pm="$dev"
 as="$HOME/Library/Application Support"
 
 # Set the the list of directories that cd searches.
