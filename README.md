@@ -12,7 +12,10 @@ curl --silent https://raw.githubusercontent.com/alexdvance/dotfiles/master/insta
 * Install "Source Code Pro" font from fonts folder.
 * Install trash command `brew install trash`
 * Copy Sublime Text icon in sublime folder into Get Info modal of Sublime Text application ([credit](https://dribbble.com/shots/1840393-Sublime-Text-Yosemite-Icon?list=searches&tag=sublime_text))
-* If git modules failed to download, try `git pull origin` or check .gitmodules file
+* If git modules failed to download, run:
+```
+git submodule update --init --recursive
+```
 
 ## For new computer
 * Run `sh bootstrap-new-system.sh`
