@@ -75,6 +75,8 @@ alias gr='git rm'
 
 alias gf='git fetch'
 alias gu='git pull'
+alias guo='git pull origin'
+alias gp='git push'
 alias gup='git pull && git push'
 alias ghu='git pull hy'
 alias ghp='git push hy'
@@ -100,8 +102,7 @@ function cherry() {
   done
 }
 alias gcher='cherry'
-
-alias gp='git push'
+alias gpick='git cherry-pick'
 
 function gcp() {
   args=$@
