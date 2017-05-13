@@ -3,6 +3,7 @@
 curr="$pm/dotfiles"
 
 # Load main files.
+source ~/.bash_profile
 # echo "Load start\t" $(gdate "+%s-%N")
 source "$curr/terminal/startup.sh"
 # echo "$curr/terminal/startup.sh"
